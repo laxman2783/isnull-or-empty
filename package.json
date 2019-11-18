@@ -1,11 +1,19 @@
 {
-  "name": "@laxman2783/isnull-or-empty",
+  "name": "npmpublish",
   "version": "1.0.0",
-  "description": "\"this  package check is empty or null\"",
+  "description": "\"To check  null or empty\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxman2783/isnull-or-empty.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laxman2783/isnull-or-empty/issues"
+  },
+  "homepage": "https://github.com/laxman2783/isnull-or-empty#readme"
 }

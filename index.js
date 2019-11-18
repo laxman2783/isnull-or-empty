@@ -1,8 +1,7 @@
-// Main package function
-function isNullOrEmpty(input) {
-    // Returns true if the input is either undefined, null, or empty, false otherwise
-    return (input === undefined || input === null || input === '');
-}
+var isNullOrEmpty = require('is-null-or-empty');
 
-// Make the main function available to other packages that require us
-module.exports = isNullOrEmpty;
+console.log(isNullOrEmpty("")); // true
+console.log(isNullOrEmpty(null)); // true
+console.log(isNullOrEmpty(undefined)); // true
+
+console.log(isNullOrEmpty("Hello World")); // false
