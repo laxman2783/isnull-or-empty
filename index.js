@@ -1,4 +1,4 @@
-var isNullOrEmpty = require('is-null-or-empty');
+var isNullOrEmpty = require('npmpublishlaxman');
 
 console.log(isNullOrEmpty("")); // true
 console.log(isNullOrEmpty(null)); // true
