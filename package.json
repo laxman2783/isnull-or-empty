@@ -1,5 +1,5 @@
 {
-  "name": "ismpty-or-null",
+  "name": "isnull-or-empty",
   "version": "1.0.0",
   "description": "\"this  package check is empty or null\"",
   "main": "index.js",
